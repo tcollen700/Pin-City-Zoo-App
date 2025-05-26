@@ -1,0 +1,225 @@
+body {
+    margin:0;
+    width: 100%;
+    padding: 0;
+    font-family: Helvetica;
+    padding-top: 105px;
+    padding-bottom: 21px;
+    font-size: 11px;
+    }
+div, header, footer {
+    width:100%;
+    }
+/******header****/
+header {
+    position: fixed;
+    top: 0;
+    z-index:200;
+    }
+#logo {
+    height: 80px;
+    background-image: url(images/wood-bg.png);
+	display: flex;
+  	justify-content: center;
+    
+    }
+#logo>img {
+    height: 45px;
+    margin-top: 20px;
+    }
+/******top navigation menu****/
+
+#top-nav {
+    background-color: #356436;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 
+    1fr 1fr 1fr;
+    font-size: 16px;
+    }
+
+#top-nav>div {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center; 
+    }
+#top-nav a {
+    font-weight: 700;
+    color: white;
+    text-decoration:none;
+    width:100%;
+    text-align: center;
+    padding: 2.5px;
+    }
+#top-nav a:active {
+    font-weight: 800;
+	}    
+/******main****/
+
+.map {
+    width: 100%;
+    }
+
+#main {
+    background-image: 
+    url(images/map-blur.png);
+    padding-top:20px;
+    padding-bottom: 300px;
+}
+#main-home  {
+    background-image: 
+    url(images/map-blur.png);
+    padding-bottom: 300px;
+}
+.mini-info {
+    background-color: 
+    rgba(251,251,251, 0.7);
+    display: grid;
+    grid-template-columns:
+    70px 1fr 40px;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 10px;
+    }
+.mini-info>.picture {
+    display: flex;
+  	justify-content: center;
+ 	align-items: center; 
+ 	height: 100%;
+    }
+#main>a {
+    text-decoration:none;
+    color: black;
+    background-color: none;
+    }
+.mini-info h2 {
+    font-size: 14px;
+    margin: 3px 0;
+    margin-top: 9px;
+    }
+.mini-info p {
+    font-size: 11px;
+    margin: 2px 0;
+    }
+
+.thumbnail {
+    height: 52px;
+    margin:auto;
+    padding: 4px;
+    }
+
+.arrow {
+    height: 30px;
+    margin:auto;
+    }
+
+#main-info {
+    width: 85%;
+    margin:auto;
+    background-color: 
+    rgba(251,251,251,0.7);
+    padding: 10px;
+    }
+
+#main-info>img {
+    width:100%;
+    
+    }
+#main-info>h2 {
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+    font-size: 14px;
+    }
+#main-info>p {
+    text-align: justify;
+    font-size: 11px;
+    }
+#program td:first-child {
+  text-align: right;
+  font-weight: 500;
+}
+#current-weather {
+  display: flex;
+}
+#current-weather>img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#weather-description {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#current-temp {
+  font-size: 50px !important;
+  margin: 0;
+  padding: 0;
+}
+#forecast-table {
+  width:100%;
+}
+#forecast-table img {
+  width:25px;
+  height: 25px;
+}
+#forecast-table tr {
+  display: grid;
+  grid-template-columns: 1fr 70px 50px 50px;
+  grid-gap: 2px;
+}
+#forecast-table td {
+  border-top: 1px solid black;
+}
+form>input, form>textarea {
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 2%;
+  margin: 12px 0;
+}
+form>textarea {
+  height: 80px;
+}
+form input:last-child {
+  width:80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #218410;
+  border:none;
+  border-radius: none;
+}
+/******footer navigation menu****/
+
+footer {
+    background-color: #218410;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 
+    1fr 1fr;
+    position: fixed;
+    bottom: 0;
+    z-index: 200;
+    font-size: 16px;
+	}
+footer>div {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center; 
+    }
+footer a {
+    font-weight: 700;
+    color: white;
+    text-decoration:none;
+    width:100%;
+    text-align: center;
+    padding: 2.5px;
+    }
+footer a:active {
+    font-weight: 800;
+	}    
+
+
+
